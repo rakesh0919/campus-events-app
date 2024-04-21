@@ -5,6 +5,7 @@ import EventDetails from './EventDetails';
 import Sidebar from './Sidebar';
 import './App.css';
 
+
 function App() {
   const [subjectArea, setSubjectArea] = useState('');
   const [clubType, setClubType] = useState('');
