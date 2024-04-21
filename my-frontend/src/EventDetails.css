@@ -1,0 +1,44 @@
+.rsvp-button {
+    display: inline-block; /* Necessary for proper padding and dimensions */
+    padding: 10px 20px; /* Adequate padding for button aesthetics */
+    margin-top: 20px; /* Space above the button */
+    background-color: #007bff; /* A pleasant blue, common for buttons */
+    color: white; /* White text color */
+    font-weight: bold; /* Makes the text bold */
+    text-align: center; /* Centers text within the button */
+    text-decoration: none; /* Removes underline from link */
+    border-radius: 5px; /* Rounded corners for modern appearance */
+    border: none; /* No border (can add if desired) */
+    cursor: pointer; /* Cursor appears as a pointer to indicate this is clickable */
+    transition: background-color 0.2s, box-shadow 0.2s; /* Smooth transition for hover effects */
+  }
+  
+  .rsvp-button:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Slight shadow for 3D effect on hover */
+  }
+
+  .rsvp-container {
+    text-align: center; /* Centers inline elements like text and inline-block elements */
+  }
+
+  .event-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Aligns children (title, text) center horizontally */
+    padding: 20px; /* Adds padding around the content for spacing */
+  }
+  
+  .event-details h2, .event-details p {
+    text-align: center; /* Centers the text within each element */
+    width: 100%; /* Ensures the width takes up the full container width for alignment */
+  }
+  
+  .event-details img {
+    max-width: 100%; /* Ensures the image is responsive and fits the container */
+    height: auto; /* Maintains the aspect ratio of the image */
+    margin-bottom: 20px; /* Space below the image */
+  }
+  
+  
+  

@@ -1,0 +1,43 @@
+.sidebar {
+    padding: 20px;
+    background-color: #f4f4f4; /* Light grey background */
+    width: 250px; /* Set a fixed width or as per your design requirements */
+    box-sizing: border-box;
+  }
+  
+  .filter {
+    margin-bottom: 20px; /* Space between each filter section */
+  }
+  
+  .filter label {
+    display: block; /* Ensures the label takes up the entire width */
+    text-align: center; /* Centers the text horizontally */
+    margin-bottom: 8px; /* Space below the label */
+    font-weight: bold; /* Optional: makes the label text bold */
+    color: #333; /* Dark grey text color for better readability */
+  }
+  
+  .filter select, .filter input[type="checkbox"] {
+    width: 100%; /* Full width of the container */
+    padding: 8px; /* Padding for better touch interaction */
+    border: 1px solid #ccc; /* Subtle border around the form elements */
+    border-radius: 4px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: adds depth with a subtle shadow */
+    margin-bottom: 10px; /* Space below each form element */
+  }
+  
+  .filter input[type="checkbox"] {
+    width: auto; /* Override width for checkboxes to not stretch */
+    margin: 0 auto; /* Center checkbox horizontally */
+    display: block; /* Ensures it doesn't align inline with other text */
+  }
+
+  .filter input[type="text"] {
+    width: 100%; /* Ensures the input stretches to fill its container */
+    padding: 8px; /* Adequate padding for visual appeal */
+    margin: 10px 0; /* Adds space above and below the input */
+    border: 1px solid #ccc; /* Subtle border for the input */
+    border-radius: 4px; /* Rounded corners for the input */
+  }
+  
+  

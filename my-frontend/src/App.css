@@ -23,3 +23,8 @@
 .App-main {
   width: 100%;
 }
+
+.content-area {
+  display: flex;
+  flex-direction: row;
+}

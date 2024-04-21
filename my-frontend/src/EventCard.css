@@ -9,8 +9,15 @@
   transition: transform 0.2s; /* Smooth transition for hover effect */
   display: block; /* This makes the link block-level */
   text-decoration: none; /* Removes the underline from the link */
+  margin: 15px;  /* Adds spacing around each card */
   color: inherit; /* Inherits the text color from parent elements */
+  line-height: 2;  /* Increases the line height; adjust the value as needed */
+  margin-bottom: 20px; /* Adds some space below each paragraph */
+  max-width: 400px;  /* Sets a maximum width for each card */
+  padding: 30px;     /* Padding inside the card */
+  background-color: #ffffffaa; /* Sets a background color */
 }
+
 
 .event-card:hover {
   transform: translateY(-5px); /* Slight lift effect on hover */
@@ -25,7 +32,7 @@
 .event-card h3 {
   margin: 0;
   padding: 10px;
-  background-color: #37309c; /* Example color for the title bar */
+  background-color: #271fa1; /* Example color for the title bar */
   color: white;
 }
 
