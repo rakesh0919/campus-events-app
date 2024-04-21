@@ -1,12 +1,22 @@
 import React from 'react';
-import EventsList from './EventsList';  // Adjust path as necessary
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import EventsList from './EventsList';
+import EventDetails from './EventDetails'; // You need to create this component
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Campus Events</h1>
-      <EventsList />
-    </div>
+    <Router>
+      <div className="App">
+        <header className="App-header">
+          <h1>Campus Events</h1>
+        </header>
+        <Routes>
+          <Route exact path="/" element={<EventsList />} />
+          <Route path="/events/:id" element={<EventDetails />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

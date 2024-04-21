@@ -6,7 +6,7 @@ const mockEvents = [
       start_date: new Date('2024-05-15'),
       end_date: new Date('2024-05-16'),
       location: 'Campus Quad',
-      image_url: 'https://google.com',
+      image_url: 'https://news.belmont.edu/wp-content/uploads/2019/07/The-Lawn.jpg',
       rsvp_link: 'https://google.com'
     },
     {
@@ -16,7 +16,7 @@ const mockEvents = [
       start_date: new Date('2024-06-01'),
       end_date: new Date('2024-06-01'),
       location: 'Engineering Hall',
-      image_url: 'https://google.com',
+      image_url: 'https://invisiblechildren.com/wp-content/uploads/2013/04/royce-hall1.jpg?w=615',
       rsvp_link: 'https://google.com'
     },
     // Add more events as needed

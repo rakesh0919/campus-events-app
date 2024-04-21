@@ -1,0 +1,8 @@
+.events-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust minmax for your preferred card width */
+    gap: 1.5rem; /* This sets the gap between cards */
+    justify-content: center;
+    padding: 1rem; /* Add some padding around the whole grid for better spacing from edges */
+  }
+  
