@@ -21,7 +21,7 @@ app.use("/api/events", eventRoutes);
 
 
 //Connect Database
-mongoose.connect("mongodb+srv://rakesh:rakesh@campus-events-backend.q0n0udi.mongodb.net/database?retryWrites=true&w=majority&appName=Campus-Events-Backend")
+mongoose.connect(process.env.MONGODB_URI)
 .then(() => {
     console.log("Connected to Database!");
     //Start Server
