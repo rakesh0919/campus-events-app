@@ -25,21 +25,21 @@ export default async function Home() {
       </div>
 
       
-      <div className="w-full lg:max-w-5xl bg-gradient-to-r from-cyan-500 ">
+      <div className="w-full lg:max-w-5xl ">
         <h1 className="mb-3 text-8xl font-semibold">
           Bruin <br />Events
         </h1>
       </div>
       <div className="mb-16 mt-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <h2 className="px-5 text-2xl">Upcoming Events</h2>
+        <h2 className="text-2xl">Upcoming Events</h2>
       </div>
 
       <div className="mb-32 grid text-center space-x-4 lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
         {events.map((event) => (
           <Link
-          href="/event"
+          href={"/event" + '/' + event._id }
           className="group rounded-lg border border-neutral-700 px-5 py-4 transition-colors  hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          
+          key={event._id}
           
         >
           <div className="h-1/3 mb-10">
