@@ -22,7 +22,7 @@ export default async function Page({ params }: { params: {event_id: string}}) {
   console.log(event);
   const event_date = new Date(event.date);
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between p-5 pt-10 lg:pt-24 lg:p-24">
       <div className="w-full lg:max-w-5xl">
         <section>
           <h1 className="mb-16 text-5xl font-semibold">

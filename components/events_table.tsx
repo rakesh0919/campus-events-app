@@ -29,11 +29,11 @@ export default function Events_table(events: any) {
     
     return (
         <section>
-          <section className="flex min-w-full lg:max-w-5xl">
-            <div className="mb-16 mt-32 lg:mb-10 w-full lg:max-w-5xl lg:text-left">
+          <section className="my-4 lg:mb-16 lg:mt-32 flex min-w-full lg:max-w-5xl">
+            <div className="lg:mb-10 w-full lg:max-w-5xl lg:text-left">
               <h2 className="text-2xl text-left">Upcoming Events</h2>
             </div>
-            <div className="mb-16 mt-32 lg:mb-10 w-1/4 lg:max-w-5xl lg:text-left">
+            <div className=" lg:mb-10 w-1/4 lg:max-w-5xl lg:text-left">
               <Input onChange={(input) => setFilter(input.target.value.toLowerCase())} placeholder="Search" />
             </div>
           </section>
