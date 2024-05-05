@@ -30,17 +30,17 @@ export default async function Home() {
           Bruin <br />Events
         </h1>
       </div>
-      <div className="mb-16 mt-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <h2 className="text-2xl">Upcoming Events</h2>
+      <div className="mb-16 mt-32 grid lg:mb-0 w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
+        <h2 className="text-2xl text-left">Upcoming Events</h2>
       </div>
-      <section>
+      <section className=' w-full lg:max-w-5xl'>
         <div>
           <h2 className="mb-3 text-2xl font-semibold">
-            
+
           </h2>
 
         </div>
-        <div className="mb-32 grid text-center space-x-4 lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
+        <div className="mb-32 grid space-y-4 lg:space-y-0 lg:space-x-4 lg:mb-0 w-full lg:max-w-5xl lg:grid-cols-4 text-left">
           {events.map((event: any) => (
             <Link
             href={"/event" + '/' + event._id }
@@ -56,7 +56,7 @@ export default async function Home() {
                 </span>
               </h2>
             </div>
-            <p className="m-0 max-w-[30ch] text-sm opacity-50">
+            <p className="m-0 max-w-full text-sm opacity-50">
               {event.description}
             </p>
           </Link>
