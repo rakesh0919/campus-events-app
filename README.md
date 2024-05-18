@@ -1,3 +1,5 @@
+https://campus-events-app.vercel.app/
+
 Node Version 
 v21.1.0
 
